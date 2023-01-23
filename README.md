@@ -20,3 +20,25 @@ Full sample information: OSD-488-samples.csv
 
 LSDS-13_calcium-uptake_fajardoTRANSFORMED_1_72_85_93.csv contains the ratio of Ca2+-bound to Ca2+-free for the times (reported in 20 second intervals) 
 
+## Step 1 - Read in the data
+
+## F-test (1 point)
+
+The aim of this study is to compare the Ca2+ uptake in samples taken from space flight to those in various control groups (Cohort_Control, Vivarium_Control, and Ground_Control). This is measured across various time points 
+
+One of the things we will want to know is if the variance is different between our samples.
+
+Use the F-test to test equal variances at time-point twenty (20) between
+- Space_Flight vs Ground Control
+- Space_Flight vs Cohort_Control
+- Space_Flight vs Vivarium_Control
+
+
+## T-test - One Sample (1 point)
+
+You are a researcher who conducted a similar experiment in tibialis samples and found a Ca2+ ratio with a mean of 0.8. You want to compare your results to the results in this study. To do that you want to find the time point with a mean Ca2+ ratio that is _not_ statistically different from yours. 
+
+At which time point(s) does the mean of all of the **tibialis** samples _not_ deviate signficiatly from 0.8?
+
+
+
