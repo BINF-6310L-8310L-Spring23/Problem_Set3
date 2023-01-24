@@ -55,11 +55,19 @@ Second, Use the two-sample t-test with either equal or unequal variances (based 
 Repeat the above test using the soleus samples. 
 
 
-## Chi-Squared Test
+## Chi-Squared Test (2 points: 1 for the test, 1 for the answer)
 
 Someone in your lab was worried that the "Sample Preservation Method" (listed in the OSD-488-samples.csv) data was affecting the Ca2+ ratios in your soleus muscle samples - especially at later time points. 
 
 Use the appropriate chi-squared test to test if there is a difference in the proportion of control mice (Cohort Control, Ground Control and Vivarium Control together) mice with a Ca2+ ration >=1 with the proportion of mice with a Ca2+ ration < 1 that were processed in either RNALater or Liquid Nitrogen. Limit this to soleus muscle at the 480 time point.
 
 Based on the results of this test (including any errors) what would you tell your labmate? 
+
+## Additional hypotheses (4 points)
+
+There are _many_ more hypotheses we could test with this data. Now you need to come up with a hypothesis to test! Complete the steps below (1 point each)
+1. Write out a hypothesis/question to test.
+2. Select the appropriate test and provide the null and alternative hypotheses.
+3. Conduct the test
+4. In 1-2 sentences summarize your results 
 
