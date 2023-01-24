@@ -41,4 +41,25 @@ You are a researcher who conducted a similar experiment in tibialis samples and 
 At which time point(s) does the mean of all of the **tibialis** samples _not_ deviate signficiatly from 0.8?
 
 
+## T-Test - Two sample Tibialis (1 point)
+
+The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. 
+
+First, use the F-Test to determine of the variances of the two samples are statistically different from 1. 
+
+Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480. Is there statistical support for a difference in Ca2+ ratios after space flight?
+
+
+## T-Test - Two Sample Soleus (1 point)
+
+Repeat the above test using the soleus samples. 
+
+
+## Chi-Squared Test
+
+Someone in your lab was worried that the "Sample Preservation Method" (listed in the OSD-488-samples.csv) data was affecting the Ca2+ ratios in your soleus muscle samples - especially at later time points. 
+
+Use the appropriate chi-squared test to test if there is a difference in the proportion of control mice (Cohort Control, Ground Control and Vivarium Control together) mice with a Ca2+ ration >=1 with the proportion of mice with a Ca2+ ration < 1 that were processed in either RNALater or Liquid Nitrogen. Limit this to soleus muscle at the 480 time point.
+
+Based on the results of this test (including any errors) what would you tell your labmate? 
 
