@@ -61,7 +61,7 @@ Repeat the above test using the soleus samples.
 
 Someone in your lab was worried that the "Sample Preservation Method" (listed in the OSD-488-samples.csv) data was affecting the Ca2+ ratios in your soleus muscle samples - especially at later time points. 
 
-Use the appropriate chi-squared test to test if there is a difference in the proportion of control mice (Cohort Control, Ground Control and Vivarium Control together) mice with a Ca2+ ration >=1 with the proportion of mice with a Ca2+ ration < 1 that were processed in either RNALater or Liquid Nitrogen. Limit this to soleus muscle at the 480 time point.
+Use the appropriate chi-squared test to test if there is a difference in the proportion of control mice (Cohort Control, Ground Control and Vivarium Control together) mice with a Ca2+ ration >=1 with the proportion of mice with a Ca2+ ratio < 1 that were processed in either RNALater or Liquid Nitrogen. Limit this to soleus muscle at the 480 time point.
 
 Based on the results of this test (including any errors) what would you tell your labmate? 
 
