@@ -40,7 +40,7 @@ Use the F-test to test equal variances at time-point twenty (20) between
 
 You are a researcher who conducted a similar experiment in tibialis samples and found a Ca2+ ratio with a mean of 0.8. You want to compare your results to the results in this study. To do that you want to find the time point with a mean Ca2+ ratio that is _not_ statistically different from yours. 
 
-At which time point(s) does the mean of all of the **tibialis** samples _not_ deviate signficiatly from 0.8?
+At which time point(s) does the mean of all of the **tibialis** samples _not_ deviate significantly from 0.8?
 
 
 ## T-Test - Two sample Tibialis (1 point)
