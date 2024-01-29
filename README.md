@@ -24,46 +24,80 @@ LSDS-13_calcium-uptake_fajardoTRANSFORMED_1_72_85_93.csv contains the ratio of C
 
 Read in the two files
 
+&nbsp;
+
 ## F-test (1 point)
 
-The aim of this study is to compare the Ca2+ uptake in samples taken from space flight to those in various control groups (Cohort_Control, Vivarium_Control, and Ground_Control). This is measured across various time points 
+The aim of this study is to compare the Ca2+ uptake in samples taken from space flight to those in various control groups (Cohort_Control, Vivarium_Control, and Ground_Control). This is measured across various time points. 
 
 One of the things we will want to know is if the variance is different between our samples.
+
+### Question 1
 
 Use the F-test to test equal variances at time-point twenty (20) between
 - Space_Flight vs Ground Control
 - Space_Flight vs Cohort_Control
-- Space_Flight vs Vivarium_Control
 
+Report the F-value and if there is a statistically significant difference in the variances. 
+
+&nbsp;
 
 ## T-test - One Sample (1 point)
 
-You are a researcher who conducted a similar experiment in tibialis samples and found a Ca2+ ratio with a mean of 0.8. You want to compare your results to the results in this study. To do that you want to find the time point with a mean Ca2+ ratio that is _not_ statistically different from yours. 
+You are a researcher who conducted a similar experiment in tibialis samples and found a Ca2+ ratio with a mean of 0.8. You want to compare your results to the results in this study. To do that, you want to find the time point with a mean Ca2+ ratio that is _not_ statistically different from yours. 
+
+### Question 2
 
 At which time point(s) does the mean of all of the **tibialis** samples _not_ deviate significantly from 0.8?
 
+&nbsp;
 
 ## T-Test - Two sample Tibialis (1 point)
 
-The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. 
+The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. You decide to examine two time points - 20 and 480
 
-First, use the F-Test to determine of the variances of the two samples are statistically different from 1. 
+### Question 2.1
+
+First, use the F-Test to determine if the variances of the two samples at time points 20 and 480 are statistically different from 1. 
+
+### Question 2.2 
 
 Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480. Is there statistical support for a difference in Ca2+ ratios after space flight?
 
 
+&nbsp;
+
 ## T-Test - Two Sample Soleus (1 point)
 
-Repeat the above test using the soleus samples. 
+Repeat the above test using the soleus samples. You will again use the two time points (20 and 480) and compare space flight and ground control. 
 
 
-## Chi-Squared Test (2 points: 1 for the test, 1 for the answer)
+### Question 3.1
+
+First, use the F-Test to determine if the variances of the two samples at time points 20 and 480 are statistically different from 1. 
+
+### Question 3.2 
+
+Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480. Is there statistical support for a difference in Ca2+ ratios after space flight?
+
+&nbsp;
+&nbsp;
+
+## Chi-Squared Test (2 points)
 
 Someone in your lab was worried that the "Sample Preservation Method" (listed in the OSD-488-samples.csv) data was affecting the Ca2+ ratios in your soleus muscle samples - especially at later time points. 
 
 Use the appropriate chi-squared test to test if there is a difference in the proportion of control mice (Cohort Control, Ground Control and Vivarium Control together) mice with a Ca2+ ration >=1 with the proportion of mice with a Ca2+ ratio < 1 that were processed in either RNALater or Liquid Nitrogen. Limit this to soleus muscle at the 480 time point.
 
+### Question 4.1 
+
+What is the p-value of your test?
+
+### Question 4.2
+
 Based on the results of this test (including any errors) what would you tell your labmate? 
+
+
 
 ## Additional hypotheses (4 points)
 
