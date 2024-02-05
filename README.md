@@ -53,16 +53,17 @@ At which time point(s) does the mean of all of the **tibialis** samples _not_ de
 &nbsp;
 
 ## T-Test - Two sample Tibialis (1 point)
+_Updated on 2/5 for clarity - don't worry if you have already submitted_
 
-The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. You decide to examine two time points - 20 and 480
+The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. You decide to examine two-time points (two different tests) - 20 and 480
 
 ### Question 3.1
 
-First, use the F-Test to determine if the variances of the two samples at time points 20 and 480 are statistically different from 1. 
+First, use the F-Test to determine if the variances of the two samples (ground control vs space flight) are statistically different from 1 at time points 20 and 480 (two tests comparing variance of ground control/space flight)
 
 ### Question 3.2 
 
-Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480. Is there statistical support for a difference in Ca2+ ratios after space flight?
+Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480 (two t-tests). Is there statistical support for a difference in Ca2+ ratios after space flight?
 
 
 &nbsp;
