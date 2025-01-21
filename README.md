@@ -35,8 +35,9 @@ One of the things we will want to know is if the variance is different between o
 ### Question 1
 
 Use the F-test to test equal variances at time-point twenty (20) between
+- Space_Flight vs Vivarium_Control
 - Space_Flight vs Ground Control
-- Space_Flight vs Cohort_Control
+- Vivarium_Control vs Ground Control
 
 Report the F-value and if there is a statistically significant difference in the variances. 
 
