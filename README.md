@@ -20,6 +20,10 @@ Full sample information: OSD-488-samples.csv
 
 LSDS-13_calcium-uptake_fajardoTRANSFORMED_1_72_85_93.csv contains the ratio of Ca2+-bound to Ca2+-free for the times (reported in 20 second intervals) 
 
+## Alpha value
+
+Use an alpha value of 0.05 for the tests below
+
 ## Read in the data
 
 Read in the two files
