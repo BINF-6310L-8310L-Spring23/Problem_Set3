@@ -26,11 +26,11 @@ Read in the two files
 
 &nbsp;
 
-## F-test (1 point)
+## F-test in Soleus (1 point)
 
 The aim of this study is to compare the Ca2+ uptake in samples taken from space flight to those in various control groups (Cohort_Control, Vivarium_Control, and Ground_Control). This is measured across various time points. 
 
-One of the things we will want to know is if the variance is different between our samples.
+One of the things we will want to know is if the variance is different between our samples. Limit this analysis to the soleus muscle samples. 
 
 ### Question 1
 
@@ -43,35 +43,36 @@ Report the F-value and if there is a statistically significant difference in the
 
 &nbsp;
 
-## T-test - One Sample (1 point)
+## T-test - One Sample in Soleus (1 point)
 
-You are a researcher who conducted a similar experiment in tibialis samples and found a Ca2+ ratio with a mean of 0.8. You want to compare your results to the results in this study. To do that, you want to find the time point with a mean Ca2+ ratio that is _not_ statistically different from yours. 
+You are a researcher who conducted a similar experiment in soleus samples and found a Ca2+ ratio with a mean of 0.99. You want to compare your results to the results in this study. To do that, you want to find the time point with a mean Ca2+ ratio that is _not_ statistically different from yours. 
+
+_Hint - there is no na.rm function in t.test()_
 
 ### Question 2
 
-At which time point(s) does the mean of all of the **tibialis** samples _not_ deviate significantly from 0.8?
+What is the earliest time point at which the **soleus** samples _do not_ deviate significantly from 0.99?
 
 &nbsp;
 
 ## T-Test - Two sample Tibialis (1 point)
-_Updated on 2/5 for clarity - don't worry if you have already submitted_
 
-The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. You decide to examine two-time points (two different tests) - 20 and 480
+The central aim of this study is to see the effect of space flight on Ca2+ ratio. Therefore, let's compare the mean Ca2+ ratios between tibialis in space flight and those on ground control. You decide to examine two-time points (two different tests) - 20 and 300
 
 ### Question 3.1
 
-First, use the F-Test to determine if the variances of the two samples (ground control vs space flight) are statistically different from 1 at time points 20 and 480 (two tests comparing variance of ground control/space flight)
+First, use the F-Test to determine if the variances of the two samples (ground control vs space flight) are statistically different from 1 at time points 20 and 300 (two tests comparing variance of ground control/space flight)
 
 ### Question 3.2 
 
-Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480 (two t-tests). Is there statistical support for a difference in Ca2+ ratios after space flight?
+Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 300 (two t-tests). Is there statistical support for a difference in Ca2+ ratios after space flight?
 
 
 &nbsp;
 
-## T-Test - Two Sample Soleus (1 point)
+## T-Test - Two Sample between Tibialis controls (1 point)
 
-Repeat the above test using the soleus samples. You will again use the two time points (20 and 480) and compare space flight and ground control. 
+Repeat the above test using the Ca2+ ratios between tibialis in Vivarium Control and those on ground control. You will again use the two time points (20 and 300).
 
 
 ### Question 4.1
@@ -80,7 +81,7 @@ First, use the F-Test to determine if the variances of the two samples at time p
 
 ### Question 4.2 
 
-Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis at times 20 and 480. Is there statistical support for a difference in Ca2+ ratios after space flight?
+Second, Use the two-sample t-test with either equal or unequal variances (based on your result above) to compare the means of Ca2+ ratios in the tibialis control groups at times 20 and 480. Is there statistical support for a difference in Ca2+ ratios between the control groups?
 
 &nbsp;
 &nbsp;
